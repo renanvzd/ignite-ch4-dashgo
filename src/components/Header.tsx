@@ -1,7 +1,7 @@
 import { Flex, Text, Input, Icon, HStack, Box, Avatar } from '@chakra-ui/react';
 import { RiNotificationLine, RiSearchLine, RiUserAddLine } from 'react-icons/ri';
 
-export default function Header() {
+export function Header() {
   return (
     <Flex
       as="header"
